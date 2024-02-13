@@ -78,7 +78,7 @@ onMounted(() => {
       </p>
       <NuxtLink
         target="_blank"
-        href="https://github.com/danielroe/nuxt-vercel-isr"
+        href="https://github.com/jessicasachs/nuxt-mobile-vercel"
         class="source"
       >
         <LogoGithub />

@@ -1,13 +1,13 @@
-# Nuxt ❤️ Vercel
+# Nuxt ❤️ Mobile ❤️ Vercel
 
-This is a tiny demo to show off **Nuxt's route rules integration with Vercel**.
+This is a tiny demo to show off **Nuxt's route rules integration with a Mobile App built on top of Ionic's Capacitor and deployed on Vercel's infrastructure**.
 
 Here are a few different pages to try:
 
-- [/](https://nuxt-vercel-isr.vercel.app/) - revalidated every 60 seconds, in the background
-- [/static](https://nuxt-vercel-isr.vercel.app/static) - generated on demand and then cached permanently
-- [/prerendered](https://nuxt-vercel-isr.vercel.app/prerendered) - generated at build time and cached permanently
-- [/dynamic](https://nuxt-vercel-isr.vercel.app/dynamic) - always fresh
+- [/](https://nuxt-mobile-vercel.vercel.app/) - revalidated every 60 seconds, in the background
+- [/static](https://nuxt-mobile-vercel.vercel.app/static) - generated on demand and then cached permanently
+- [/prerendered](https://nuxt-mobile-vercel.vercel.app/prerendered) - generated at build time and cached permanently
+- [/dynamic](https://nuxt-mobile-vercel.vercel.app/dynamic) - always fresh
 
 The only config required:
 
@@ -46,7 +46,11 @@ pnpm install
 
 ## Credits
 
-This was based on [nuxt-on-the-edge](https://github.com/pi0/nuxt-on-the-edge) by [@pi0](https://github.com/pi0) which itself was inspired by [other](https://github.com/Rich-Harris/sveltekit-on-the-edge) [projects](https://github.com/vercel-labs/react-on-the-edge).
+It's all prior art.
+
+🐢 This is a direct fork of [nuxt-vercel-isr](https://github.com/danielroe/nuxt-vercel-isr) by [@DanielRoe](https://github.com/danielroe).
+🐢 Which was inspired by [nuxt-on-the-edge](https://github.com/pi0/nuxt-on-the-edge) by [@pi0](https://github.com/pi0)
+🐢 Which itself was inspired by [other](https://github.com/Rich-Harris/sveltekit-on-the-edge) [projects](https://github.com/vercel-labs/react-on-the-edge).
 
 ## Development
 
