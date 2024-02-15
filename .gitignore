@@ -1,9 +1,10 @@
+
 node_modules
 *.log*
 .nuxt
 .nitro
 .cache
 .output
-.env
+*.env*
 dist
 .vercel
